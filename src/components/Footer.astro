@@ -4,9 +4,13 @@ const today = new Date();
 
 <footer>
 	&copy; {today.getFullYear()} deXark.
-	<div class="social-links">
-		<a href="https://github.com/darkins/dextro" target="_blank">
-			<span class="sr-only">Go to dextro's GitHub repo</span>
+	<div>
+		<a
+			href="https://github.com/darkins/dextro"
+			class="social-links"
+			target="_blank"
+		>
+			<span class="sr-only">GitHub repo</span>
 			<svg
 				viewBox="0 0 16 16"
 				aria-hidden="true"
@@ -31,14 +35,15 @@ const today = new Date();
 	.social-links {
 		display: flex;
 		justify-content: center;
-		gap: 1em;
-		margin-top: 1em;
-	}
-	.social-links a {
+		align-items: center;
 		text-decoration: none;
 		color: rgb(var(--gray));
+		margin-top: 2em;
 	}
-	.social-links a:hover {
+	.social-links:hover {
 		color: rgb(var(--gray-dark));
+	}
+	.social-links span {
+		margin-right: 0.5em;
 	}
 </style>
