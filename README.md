@@ -1,7 +1,7 @@
-# Dextro - Astro Starter Kit: Blog
+# Dextro - Astro & NetlifyCMS Starter Kit
 
 ```
-npm create astro@latest -- --template blog
+git clone https://github.com/darkins/dextro.git
 ```
 
 Features:
@@ -12,6 +12,8 @@ Features:
 - ✅ Sitemap support
 - ✅ RSS Feed support
 - ✅ Markdown & MDX support
+- ✅ Image Optimisation support
+- ✅ Netlify CMS support
 
 ## 🚀 Project Structure
 
@@ -19,6 +21,7 @@ Inside of your Astro project, you'll see the following folders and files:
 
 ```
 ├── public/
+│   ├── admin/
 ├── src/
 │   ├── components/
 │   ├── content/
@@ -36,7 +39,7 @@ There's nothing special about `src/components/`, but that's where we like to put
 
 The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
 
-Any static assets, like images, can be placed in the `public/` directory.
+Any static assets, like images, can be placed in the `src/assets` directory to utilise image optimisation in Astro 3.0.
 
 ## 🧞 Commands
 
