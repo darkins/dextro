@@ -31,7 +31,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 				}
 			}
 			if (window.netlifyIdentity) {
-				window.netlifyIdentity.on("init", user: any => {
+				window.netlifyIdentity.on("init", (user: any) => {
 					if (!user) {
 						window.netlifyIdentity.on("login", () => {
 							document.location.href = "/admin/";
