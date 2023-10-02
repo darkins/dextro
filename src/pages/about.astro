@@ -1,16 +1,16 @@
 ---
 import Layout from '../layouts/BlogPost.astro';
-import astroImage from '../assets/blog-placeholder-about.jpg'
 import { Image } from 'astro:assets';
+import aboutImage from '../assets/blog-placeholder-about.jpg';
 ---
 
 <Layout
 	title="About Me"
 	description="Lorem ipsum dolor sit amet"
 	pubDate={new Date('August 08 2023')}
-	heroImage={astroImage}
+	heroImage={aboutImage}
 >
-
+<Image src={aboutImage} alt="About Image" width={720} height={360} />
 	<p>
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 		labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo
