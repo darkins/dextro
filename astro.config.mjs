@@ -5,7 +5,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://dextro.netlify.app",
+  site: "https://dextro-starter.netlify.app",
   integrations: [mdx(), sitemap()],
   image: {
     service: sharpImageService(),
