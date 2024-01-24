@@ -293,3 +293,9 @@ input[name="theme-toggle"] {
   width: auto !important;
   white-space: normal !important;
 }
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

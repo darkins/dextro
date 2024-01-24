@@ -2,9 +2,8 @@
 const today = new Date();
 ---
 
-<footer class="flex">
-	&copy; {today.getFullYear()} deXark.
-	<div>
+<footer>
+		<small>&copy; {today.getFullYear()} <a href="https://dexark.netlify.app">deXark</a>.</small>
 		<a
 			href="https://github.com/darkins/dextro"
 			class="social-links"
@@ -23,22 +22,20 @@ const today = new Date();
 				></path></svg
 			>
 		</a>
-	</div>
 </footer>
 <style>
 	footer {
-		padding: 2em 1em 6em 1em;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		gap: 2rem;
 		background: linear-gradient(var(--gray-gradient)) no-repeat;
 		color: rgb(var(--gray));
 		text-align: center;
 	}
 	.social-links {
-		display: flex;
-		justify-content: center;
-		align-items: center;
 		text-decoration: none;
 		color: rgb(var(--gray));
-		margin-top: 2em;
 	}
 	.social-links:hover {
 		color: rgb(var(--gray-dark));
