@@ -1,8 +1,8 @@
 ---
 title: First post
 description: Lorem ipsum dolor sit amet
-pubDate: Jul 08 2023
-puDate: 2023-10-02T12:48:41.238Z
+pubDate: Jul 08 2025
+puDate: 2025-10-02T12:48:41.238Z
 heroImage: ../../assets/blog-placeholder-3.jpg
 ---
 

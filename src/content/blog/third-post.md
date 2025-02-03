@@ -1,7 +1,7 @@
 ---
 title: "Third post"
 description: "Lorem ipsum dolor sit amet"
-pubDate: "Jul 15 2023"
+pubDate: "Jul 15 2025"
 heroImage: "../../assets/blog-placeholder-2.jpg"
 ---
 
