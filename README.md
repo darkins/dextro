@@ -23,10 +23,12 @@ Inside of your Astro project, you'll see the following folders and files:
 ├── public/
 │   ├── admin/
 ├── src/
+│   ├── assets/
 │   ├── components/
 │   ├── content/
 │   ├── layouts/
-│   └── pages/
+│   ├── pages/
+│   └── styles/
 ├── astro.config.mjs
 ├── README.md
 ├── package.json
@@ -39,7 +41,7 @@ There's nothing special about `src/components/`, but that's where we like to put
 
 The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
 
-Any static assets, like images, can be placed in the `src/assets` directory to utilise image optimisation in Astro 3.0.
+Any static assets, like images, can be placed in the `src/assets` directory to utilise image optimisation in Astro 5.2.3.
 
 ## 🧞 Commands
 
